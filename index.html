@@ -21,32 +21,46 @@
     <title>Xie</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="shortcut icon" href="images/favicon.ico">
+
+    <style>
+        #navbar-brand {
+            color: grey;
+            margin-left: 350px;
+        }
+
+        @media (max-width: 768px) {
+            #navbar-brand {
+                margin-left: 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
-        <a class="navbar-brand" href="#">Yifeng Xie</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: white;">
+        <a id="navbar-brand" class="navbar-brand" href="" style="color:grey; "><b>Homepage</b></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarToggle">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#About" style="color:White;">About</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="masthead__menu-item">
+                    <a class="nav-link" href="#About" style="color:grey;">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#News" style="color:White;">News</a>
+                    <a class="nav-link" href="#News" style="color:grey;">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Publications" style="color:White;">Publications</a>
+                    <a class="nav-link" href="#Publications" style="color:grey;">Publications</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Educations" style="color:White;">Educations</a>
+                    <a class="nav-link" href="#Educations" style="color:grey;">Educations</a>
                 </li>
             </ul>
         </div>
+        <ul class="hidden-links hidden"></ul>
     </nav>
 
     <div class="container" style="padding-top: 80px; font-size: 16px">
@@ -83,8 +97,7 @@
                 <hr>
                 <ul>
                     <li>[10/2023] I plan to enroll in a
-                        <b>Master</b>'s or <b>Ph.D.</b> program for the fall of <b>2025</b>
-                        with a focus on <b>large language models</b> and related topics. If
+                        <b>Master</b>'s or <b>Ph.D.</b> program for the fall of <b>2025</b>. If
                         you are open to discussing potential collaboration, please feel free
                         to contact me at your convenience.
                     </li>
@@ -114,7 +127,8 @@
                                 <strong>Yifeng Xie</strong>, Zhihong Zhu, Xuxin Cheng, Zhiqi Huang, Dongsheng
                                 Chen
                                 <br>
-                                <a href="https://evfidiw.github.io/assets/emnlp23_syntax.pdf" style="color:RoyalBlue;"><small>[Paper]</small></a>
+                                <a href="https://evfidiw.github.io/assets/emnlp23_syntax.pdf"
+                                    style="color:RoyalBlue;"><small>[Paper]</small></a>
 
                             </td>
                         </tr>
