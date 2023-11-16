@@ -23,21 +23,13 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <style>
-        #navbar-brand {
-            color: grey;
-            margin-left: 350px;
-        }
 
-        @media (max-width: 768px) {
-            #navbar-brand {
-                margin-left: 10px;
-            }
-        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: white;">
+    <link rel="stylesheet" type="text/css" href="tmp.css">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#f4f4f4;">
         <a id="navbar-brand" class="navbar-brand" href="" style="color:grey; "><b>Homepage</b></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
@@ -45,7 +37,8 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarToggle">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto" style="margin-left: 25px">
+
                 <li class="masthead__menu-item">
                     <a class="nav-link" href="#About" style="color:grey;">About</a>
                 </li>
@@ -67,7 +60,7 @@
         <div class="row">
             <div class="col-md-3" , style="padding-right: 40px; padding-top: 60px; text-align: center;">
                 <img class="img-responsive img-rounded" src="images/myfig.jpg" alt=""
-                    style="margin: 0 auto; max-width: 220px">
+                    style="margin: 0 auto; max-width: 180px">
                 <p style="text-align:center">
                     <name>
                         <font size="5"> <b> Yifeng Xie (谢译锋) </b> </font>
@@ -75,13 +68,24 @@
                     <br>
                     I do what I say I will do.
                 </p>
-                <p style="text-align:center;">
-                    <a href="mailto:evfxie@gmail.com"><img src="images/email.png" ; style="max-width: 26px" /></a>
-                    &nbsp&nbsp&nbsp
-                    <a href="https://github.com/Evfidiw/" target="_blank"><img src="images/github.png" ;
-                            style="max-width: 26px" /></a>
-                    &nbsp&nbsp&nbsp
-                </p>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <img src="images/locate.png" alt="Location" class="info-icon">
+                        <span> Guangdong, China</span>
+                    </div>
+                    <div class="info-item">
+                        <a href="mailto:evfxie@gmail.com">
+                            <img src="images/email.png" alt="Email" class="info-icon">
+                            <span> Email</span>
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://github.com/Evfidiw/" target="_blank">
+                            <img src="images/github.png" alt="Github" class="info-icon">
+                            <span> Github</span>
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <p>
