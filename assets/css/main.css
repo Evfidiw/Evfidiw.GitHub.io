@@ -1,0 +1,5 @@
+/* CSS to move navbar items to the right */
+.navbar-nav {
+    margin-left: 80px;
+    /* Adjust this value as needed */
+}
