@@ -3,7 +3,6 @@
     margin-left: 5%;
 }
 
-/* seletced-research */
 .content {
     max-width: 1200px;
     margin: 0 auto;
@@ -36,4 +35,55 @@
 .text-content {
     flex: 1;
     padding-left: 20px;
+}
+
+/* 查看隐藏 键 */
+#toggleButton,
+#collapseButton {
+    outline: none;
+    border: none;
+}
+
+#toggleButton:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#collapseButton:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#additionalContent {
+    margin-top: normal;
+}
+
+.btn-primary {
+    background-color: white;
+    color: RoyalBlue;
+    border: white;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: RoyalBlue;
+    border-color: white;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: RoyalBlue;
+    border: white;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: RoyalBlue;
+    border-color: white;
+}
+
+/* 空半行 */
+.half-line {
+    height: 0.5em;
+    display: block;
 }
