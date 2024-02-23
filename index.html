@@ -129,19 +129,17 @@
                         <a href="#" id="toggleButton" class="btn btn-primary" onclick="toggleContent()"
                             data-toggle="collapse" data-target="#additionalContent" aria-expanded="false"
                             aria-controls="additionalContent"
-                            style="color:RoyalBlue; background-color: white; border-color: white;">
+                            style="color:RoyalBlue; background-color: white; border-color: white; padding: 0.1px 0.1px; position: relative;">
                             [MORE]
                         </a>
-
                         <div id="additionalContent" class="collapse">
                             <!-- <li> Place old content </li> -->
                             <li class="normal-line-height"> Starting a scientific research career. </li>
                             <button id="collapseButton" class="btn btn-primary"
-                                style="display: none; color:RoyalBlue; background-color: white; border-color: white;"
+                                style="display: none; color:RoyalBlue; background-color: white; border-color: white; padding: 0.1px 0.1px;"
                                 onclick="toggleContent(true)">
                                 [BACK]
                             </button>
-
                         </div>
                     </ul>
                 </div>
@@ -170,21 +168,6 @@
                         </article>
                     </div>
                 </div>
-
-                <!--
-                <br> <br>
-                <h3 id="Reasearch" style="padding-top: 80px; margin-top: -80px;"><b>Awards</b>
-                    <font color="black"></font>
-                </h3>
-                <hr>
-
-                
-                <br> <br>
-                <h3 id="Reasearch" style="padding-top: 80px; margin-top: -80px;"><b>Experiences</b>
-                    <font color="black"></font>
-                </h3>
-                <hr>
-                -->
 
                 <div style="margin-bottom: 20px;">
                     <br>
@@ -277,7 +260,7 @@
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script>
-        // 点击跳转
+        // Click to jump
         function scrollToElement(elementId) {
             const element = document.getElementById(elementId);
             if (element) {
@@ -285,7 +268,7 @@
             }
         }
 
-        // 折叠
+        // fold
         function toggleContent(isCollapsing = false) {
             const toggleButton = document.getElementById('toggleButton');
             const collapseButton = document.getElementById('collapseButton');
@@ -301,7 +284,6 @@
                 toggleButton.style.display = 'none';
             }
         }
-
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
