@@ -84,6 +84,6 @@
 
 /* 空半行 */
 .half-line {
-    height: 0.5em;
+    height: 0.8em;
     display: block;
 }
