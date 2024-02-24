@@ -245,13 +245,14 @@
             </div>
         </div>
     </div>
-    <br><br><br><br><br><br><br><br>
+    <br>
 
     <div class="container">
         <hr>
         <center>
             <footer>
                 <p></p>
+                2024 © Yifeng Xie | Last updated: <span id="last-updated"></span>
             </footer>
         </center>
     </div>
@@ -259,31 +260,9 @@
     <!-- add Javascript-->
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/main.js"></script>
     <script>
-        // Click to jump
-        function scrollToElement(elementId) {
-            const element = document.getElementById(elementId);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
 
-        // fold
-        function toggleContent(isCollapsing = false) {
-            const toggleButton = document.getElementById('toggleButton');
-            const collapseButton = document.getElementById('collapseButton');
-            const additionalContent = document.getElementById('additionalContent');
-
-            if (isCollapsing) {
-                $('#additionalContent').collapse('hide');
-                collapseButton.style.display = 'none';
-                toggleButton.style.display = 'inline';
-            } else {
-                $('#additionalContent').collapse('show');
-                collapseButton.style.display = 'inline';
-                toggleButton.style.display = 'none';
-            }
-        }
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

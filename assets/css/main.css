@@ -88,3 +88,9 @@
     display: block;
     background-color: white;
 }
+
+footer {
+    margin-top: auto;
+    padding: 0px;
+    text-align: center;
+}
